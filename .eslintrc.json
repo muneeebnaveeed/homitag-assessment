@@ -1,0 +1,24 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:import/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "overrides": [],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["import", "react", "prettier"],
+  "rules": {
+    "quotes": ["warn", "single"],
+    "no-console": "warn",
+    "no-unused-vars": "warn",
+    "react/react-in-jsx-scope": "off"
+  }
+}

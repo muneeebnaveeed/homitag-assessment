@@ -7,6 +7,7 @@
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:import/recommended",
+    "plugin:import/react",
     "plugin:prettier/recommended"
   ],
   "overrides": [],
@@ -18,7 +19,7 @@
   "settings": {
     "import/resolver": {
       "node": {
-        "extensions": [".js", "jsx"]
+        "extensions": [".js", ".jsx"]
       },
       "alias": {
         "map": [
@@ -31,6 +32,7 @@
     "quotes": ["warn", "single"],
     "no-console": "warn",
     "no-unused-vars": "warn",
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "import/extensions": ["off", { "js": "always" }]
   }
 }

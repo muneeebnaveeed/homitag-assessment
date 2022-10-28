@@ -15,6 +15,18 @@
     "sourceType": "module"
   },
   "plugins": ["import", "react", "prettier"],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", "jsx"]
+      },
+      "alias": {
+        "map": [
+          ["~", "./src"]
+        ]
+      }
+    }
+  },
   "rules": {
     "quotes": ["warn", "single"],
     "no-console": "warn",

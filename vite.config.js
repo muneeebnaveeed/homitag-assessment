@@ -6,7 +6,6 @@ import path from 'path';
 export default defineConfig({
     plugins: [react()],
     resolve: {
-        extensions: ['.js', '.jsx'],
         alias: {
             // eslint-disable-next-line no-undef
             '~': path.resolve(__dirname, 'src')

@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
+
+import 'react-datepicker/dist/react-datepicker.css';
+import 'react-phone-number-input/style.css';
 import './tailwind.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
